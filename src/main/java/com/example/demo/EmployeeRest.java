@@ -12,12 +12,12 @@ public class EmployeeRest {
 	Integer empId;
 	String empName;
 	String empDept;
-	Integer empSalary;
+	int empSalary;
 	public EmployeeRest() {
 		// TODO Auto-generated constructor stub
 		
 	}
-	public EmployeeRest(String empName, String empDept, Integer empSalary) {
+	public EmployeeRest(String empName, String empDept, int empSalary) {
 		super();
 		this.empName = empName;
 		this.empDept = empDept;
@@ -42,10 +42,10 @@ public class EmployeeRest {
 	public void setEmpDept(String empDept) {
 		this.empDept = empDept;
 	}
-	public Integer getEmpSalary() {
+	public int getEmpSalary() {
 		return empSalary;
 	}
-	public void setEmpSalary(Integer empSalary) {
+	public void setEmpSalary(int empSalary) {
 		this.empSalary = empSalary;
 	}
 

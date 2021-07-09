@@ -17,10 +17,10 @@ public class EmployeeRestAppApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		employeeRepository.save(new EmployeeRest("ABC","Devops",3434323));
-		employeeRepository.save(new EmployeeRest("XYZ","Security",4323234));
-		employeeRepository.save(new EmployeeRest("UVW","Programming",3232311));
-		employeeRepository.save(new EmployeeRest("GHI","Security",2211121));
+		employeeRepository.save(new EmployeeRest("ABC","Devops",30000));
+		employeeRepository.save(new EmployeeRest("XYZ","Security",10000));
+		employeeRepository.save(new EmployeeRest("UVW","Programming",32000));
+		employeeRepository.save(new EmployeeRest("GHI","Security",22000));
 		System.out.println("Employees added by default");
 		
 	}
