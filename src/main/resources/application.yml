@@ -1,0 +1,13 @@
+employees:
+  - name: "ABC"
+    department: "DevOps"
+    salary: 30000
+  - name: "XYZ"
+    department: "Security"
+    salary: 10000
+  - name: "UVW"
+    department: "Programming"
+    salary: 32000
+  - name: "GHI"
+    department: "Security"
+    salary: 22000
